@@ -1,0 +1,32 @@
+.search {
+  position: relative;
+  margin-top: 8%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+  width: 300px;
+  height: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.w {
+  margin-top: 1%;
+}
+
+#wiki-icon {
+  margin-top: auto;
+  margin-bottom: 30px;
+}
+
+.search-input {
+  margin-top: auto;
+  border-radius: 3px;
+  border-color: black;
+}
+
+.result-div {
+  border-radius: 3px;
+  border-color: black;
+  margin: 20px 20px 0px 20px;
+}
