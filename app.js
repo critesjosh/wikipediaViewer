@@ -5,7 +5,7 @@ var links = [];
 
 $(document).ready(function() {
   $(".search").append('<i id="search-icon" class="fa-5x fa fa-search" aria-hidden="true"></i>');
-  $(".w").append('</br><i id="wiki-icon" class="fa-2x fa fa-wikipedia-w" aria-hidden="true"></i>');
+  $(".w").append('</br><a href="https://en.wikipedia.org/wiki/Special:Random"><i id="wiki-icon" class="fa-2x fa fa-wikipedia-w" aria-hidden="true"></i></a>');
   $('#search-icon').mouseover(function(){
     $("#search-icon").animate({
       opacity: 0
@@ -19,6 +19,7 @@ $(document).ready(function() {
         searchTerm = $('#search-input').val();
         sendRequest(searchTerm);
       });
+
     });
   });
 });
